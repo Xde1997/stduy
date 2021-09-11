@@ -11,13 +11,22 @@
 *.jar
 *\target\*
 
+#python
+*.xls
+*.xlsx
+*.pdf
+__pycache__
+build
+dist
+*.dat
+*.spec
+
 #floder
 cpp
 java
 go
 leetcode
 php
-python
 vue
 rust
 ruby

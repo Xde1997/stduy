@@ -1,0 +1,346 @@
+{
+  "application": "plm",
+  "rivision": 2021,
+  "display_name": {
+    "zh_cn": "协同管理",
+    "zh_tw": "協同管理",
+    "en_us": "Collaborative management"
+  },
+  "modules": [{
+      "name": "10011",
+      "display_name": {
+        "zh_cn": "图文档",
+        "zh_tw": "圖檔案",
+        "en_us": "Engineering Drawing Management"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    },
+    {
+      "name": "10710",
+      "display_name": {
+        "zh_cn": "工作流",
+        "zh_tw": "工作流",
+        "en_us": "Workflow"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "10910",
+      "display_name": {
+        "zh_cn": "红线批注",
+        "zh_tw": "紅線批註",
+        "en_us": "Redline"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "11109",
+      "display_name": {
+        "zh_cn": "电子签名",
+        "zh_tw": "電子簽名",
+        "en_us": "electronic signature"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "10410",
+      "display_name": {
+        "zh_cn": "AutoCAD集成",
+        "zh_tw": "AutoCAD集成",
+        "en_us": "AutoCAD integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "12727",
+      "display_name": {
+        "zh_cn": "AutoCAD数据规范审查及导入",
+        "zh_tw": "AutoCAD數據規範審查及導入",
+        "en_us": "AutoCAD data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "10510",
+      "display_name": {
+        "zh_cn": "SolidWorks集成",
+        "zh_tw": "SolidWorks集成",
+        "en_us": "SolidWorks integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "12747",
+      "display_name": {
+        "zh_cn": "SolidWorks数据规范审查及导入",
+        "zh_tw": "SolidWorks數據規範審查及導入",
+        "en_us": "SolidWorks data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "11209",
+      "display_name": {
+        "zh_cn": "Pro/E(Creo)集成",
+        "zh_tw": "Pro/E(Creo)集成",
+        "en_us": "Pro/E(Creo) integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "12767",
+      "display_name": {
+        "zh_cn": "Pro/E(Creo)数据规范审查及导入",
+        "zh_tw": "Pro/E(Creo)數據規範審查及導入",
+        "en_us": "Pro/E(Creo) data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "23307",
+      "display_name": {
+        "zh_cn": "SolidEdge集成",
+        "zh_tw": "SolidEdge集成",
+        "en_us": "SolidEdge integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "23407",
+      "display_name": {
+        "zh_cn": "SolidEdge数据规范审查及导入",
+        "zh_tw": "SolidEdge數據規範審查及導入",
+        "en_us": "SolidEdge data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "23707",
+      "display_name": {
+        "zh_cn": "Inventor集成",
+        "zh_tw": "Inventor集成",
+        "en_us": "Inventor integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "23807",
+      "display_name": {
+        "zh_cn": "Inventor数据规范审查及导入",
+        "zh_tw": "Inventor數據規範審查及導入",
+        "en_us": "Inventor data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "24007",
+      "display_name": {
+        "zh_cn": "UG集成",
+        "zh_tw": "UG集成",
+        "en_us": "UG integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "24107",
+      "display_name": {
+        "zh_cn": "UG数据规范审查及导入",
+        "zh_tw": "UG數據規範審查及導入",
+        "en_us": "UG data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "11977",
+      "display_name": {
+        "zh_cn": "CATIA集成",
+        "zh_tw": "CATIA集成",
+        "en_us": "CATIA integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "12787",
+      "display_name": {
+        "zh_cn": "CATIA数据规范审查及导入",
+        "zh_tw": "CATIA數據規範審查及導入",
+        "en_us": "CATIA data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "10610",
+      "display_name": {
+        "zh_cn": "Altium Designer(Protel)集成",
+        "zh_tw": "Altium Designer(Protel)集成",
+        "en_us": "Altium Designer(Protel) integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "24344",
+      "display_name": {
+        "zh_cn": "Altium Designer(Protel)数据规范审查及导入",
+        "zh_tw": "Altium Designer(Protel)數據規範審查及導入",
+        "en_us": "Altium Designer(Protel) data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "24404",
+      "display_name": {
+        "zh_cn": "Cadence集成",
+        "zh_tw": "Cadence集成",
+        "en_us": "Cadence integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "24454",
+      "display_name": {
+        "zh_cn": "Cadence数据规范审查及导入",
+        "zh_tw": "Cadence數據規範審查及導入",
+        "en_us": "Cadence data specification review and import"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    }, {
+      "name": "11508",
+      "display_name": {
+        "zh_cn": "BOM管理",
+        "zh_tw": "BOM管理",
+        "en_us": "BOM integration"
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    },
+    {
+      "name": "12608",
+      "display_name": {
+        "zh_cn": "项目管理",
+        "zh_tw": "專案管理",
+        "en_us": "project management"
+      },
+      "limit": 10,
+      "expired_time": ""
+    },
+    {
+      "name": "23907",
+      "display_name": {
+        "zh_cn": "PDM集成",
+        "zh_tw": "PDM集成",
+        "en_us": "PDM integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "12658",
+      "display_name": {
+        "zh_cn": "编码管理",
+        "zh_tw": "編碼管理",
+        "en_us": "Coding management"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "10157",
+      "display_name": {
+        "zh_cn": "SAP ERP集成",
+        "zh_tw": "SAP ERP集成",
+        "en_us": "SAP ERP integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "10257",
+      "display_name": {
+        "zh_cn": "Oracle ERP集成",
+        "zh_tw": "Oracle ERP集成",
+        "en_us": "Oracle ERP integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "12057",
+      "display_name": {
+        "zh_cn": "鼎捷 ERP集成",
+        "zh_tw": "鼎捷 ERP集成",
+        "en_us": "Dingjie ERP Integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "12007",
+      "display_name": {
+        "zh_cn": "金蝶 ERP集成",
+        "zh_tw": "金蝶 ERP集成",
+        "en_us": "Kingdee ERP Integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "10357",
+      "display_name": {
+        "zh_cn": "用友 ERP集成",
+        "zh_tw": "用友 ERP集成",
+        "en_us": "UFIDA ERP Integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "12807",
+      "display_name": {
+        "zh_cn": "其它ERP集成",
+        "zh_tw": "其它ERP集成",
+        "en_us": "Other ERP Integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    },
+    {
+      "name": "12857",
+      "display_name": {
+        "zh_cn": "齐套性检查",
+        "zh_tw": "齊套性檢查",
+        "en_us": "Integrity check"
+      },
+      "limit": 10,
+      "expired_time": ""
+    },
+    {
+      "name": "11557",
+      "display_name": {
+        "zh_cn": "制造看板",
+        "zh_tw": "製造看板",
+        "en_us": "Manufacturing Kanban"
+      },
+      "limit": 10,
+      "expired_time": ""
+    },
+    {
+      "name": "24581",
+      "display_name": {
+        "zh_cn": "MES集成",
+        "zh_tw": "MES集成",
+        "en_us": "MES integration"
+      },
+      "authorized": false,
+      "expired_time": ""
+    }
+  ],
+  "fingerprint": {
+    "cpuid": "",
+    "organization": "",
+    "mac": "",
+    "baseboardid": ""
+  },
+  "signature": ""
+}

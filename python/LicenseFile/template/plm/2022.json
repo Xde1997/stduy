@@ -1,0 +1,31 @@
+{
+  "application": "plm",
+  "rivision": 2022,
+  "display_name": {
+    "zh-cn": ""
+  },
+  "modules": [{
+      "name": "mkanban",
+      "display_name": {
+        "zh-cn": ""
+      },
+      "limit": 10,
+      "expired_time": "2021-06-24"
+    },
+    {
+      "name": "erp",
+      "display_name": {
+        "zh-cn": ""
+      },
+      "authorized": true,
+      "expired_time": ""
+    }
+  ],
+  "fingerprint": {
+    "cpuid": "",
+    "organization": "",
+    "mac": "",
+    "baseboardid": ""
+  },
+  "signature": ""
+}
