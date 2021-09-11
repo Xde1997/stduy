@@ -2,15 +2,6 @@
 .vscode 
 .idea
 
-#cpp
-*.dll
-*.lib
-
-#java
-*.class
-*.jar
-*\target\*
-
 #floder
 cpp
 java
