@@ -2,3 +2,6 @@
 *.jar
 *.dll
 *.lib
+.idea
+.vscode
+*.txt
