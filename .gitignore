@@ -2,6 +2,9 @@
 .vscode 
 .idea
 
+#vue
+*.log
+
 #floder
 cpp
 java
@@ -9,6 +12,5 @@ go
 leetcode
 php
 python
-vue
 rust
 ruby
