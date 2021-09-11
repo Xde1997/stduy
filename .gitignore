@@ -2,10 +2,6 @@
 .vscode 
 .idea
 
-#cpp
-*.dll
-*.lib
-
 #java
 *.class
 *.jar
