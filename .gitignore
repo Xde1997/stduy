@@ -1,7 +1,14 @@
 *.exe
-*.jar
+.vscode 
+.idea
+
+#cpp
 *.dll
 *.lib
 
-.vscode 
-.idea
+#java
+*.class
+*.jar
+*\target\*
+
+#floder
