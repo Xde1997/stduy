@@ -6,11 +6,6 @@
 *.dll
 *.lib
 
-#java
-*.class
-*.jar
-*\target\*
-
 #floder
 java
 go
