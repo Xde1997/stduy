@@ -1,0 +1,31 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>hello vue.js</title>
+    </head>
+	<body>
+		<div id="app">
+			<p>{{message}}</p>
+			<p>{{message.toUpperCase()}}</p>
+			<p>{{spanHtml}}</p>
+			<p v-html="spanHtml"></p>
+			<a v-bind:href="url">新浪网</a>
+		</div>
+		<script src="https://unpkg.com/vue@next"></script>
+		<script>
+			const App={
+				data(){
+					return {
+						message: "hello vue.js",
+						url:"http://www.sina.com.cn/",
+						spanHtml:
+							`<span style="color: red">html元素</span>`
+					}
+				}
+			};
+			const app=Vue.createApp(App);
+			const vm=app.mount('#app');
+		</script>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>v-else-if-v-else</title>
+	</head>
+	<body>
+		<div id="app">
+			<span v-if="score >= 85">优秀</span>
+			<span v-else-if="score >= 75">良好</span>
+			<span v-else-if="score>=60">及格</span>
+			<span v-else>不及格</span>
+		</div>
+
+		<script src="https://unpkg.com/vue@next"></script>
+		<script>
+			const vm=Vue.createApp({
+				data() {
+					return {
+						score: 59
+					}
+				}
+			}).mount('#app');
+		</script>
+	</body>
+</html>

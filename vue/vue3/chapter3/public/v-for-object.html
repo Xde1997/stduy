@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>v-else-if-v-else</title>
+</head>
+<body>
+<div id="app">
+	<ul>
+		<li v-for="n in books">{{ n }}</li>
+	</ul>
+</div>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+	const vm=Vue.createApp({
+		data() {
+			return {
+				books:{
+					title: 'java',
+					author: '谢德鹏',
+					isbn: 'dawdadadawd',
+				}
+			}
+		},
+		computed: {
+			evenNumbers() {
+				return this.numbers.filter(function (number){
+					return number%2===0;
+				})
+			}
+		}
+	}).mount('#app');
+
+</script>
+</body>
+</html>

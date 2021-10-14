@@ -1,0 +1,27 @@
+<!Doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>v-if指令</title>
+</head>
+<body>
+<div id="app">
+	<template v-if="!isLogin">
+		<form>
+			<p>username: <input type="text"></p>
+			<p>password: <input type="password"></p>
+		</form>
+	</template>
+</div>
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+	const vm=Vue.createApp({
+		data() {
+			return {
+				isLogin: false,
+			};
+		}
+	}).mount('#app');
+</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>v-else-if-v-else</title>
+</head>
+<body>
+<div id="app">
+	<p>
+		ID: <input type="text" v-model="bookId"/>
+		书名: <input type="text" v-model="title"/>
+		<button v-on:click="add()">添加</button>
+	</p>
+	<p v-for="book in books">
+		<input type="checkbox">
+		<span>ID:{{book.id}},书名:{{book.title}}</span>
+	</p>
+</div>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+	const vm=Vue.createApp({
+		data() {
+			return {
+				bookId: '',
+				title: '',
+				books:[
+					{id:1,title:'java'},
+					{id:2,title:'cpp'},
+					{id:3,title: 'golang'}
+				]
+			}
+		},
+		methods:{
+			add(){
+				this.books.unshift({
+					id: this.bookId,
+					title: this.title,
+				});
+				this.bookId='';
+				this.title='';
+			}
+		}
+	}).mount('#app');
+
+</script>
+</body>
+</html>

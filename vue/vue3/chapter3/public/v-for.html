@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>v-else-if-v-else</title>
+</head>
+<body>
+<div id="app">
+	<ul>
+		<li v-for="(book,index) in books">{{index}}-{{book.title}}</li>
+	</ul>
+</div>
+
+<script src="https://unpkg.com/vue@next"></script>
+<script>
+	const vm=Vue.createApp({
+		data() {
+			return {
+				books:[
+					{title: 'java'},
+					{title: 'cpp'},
+					{title: 'golang'},
+				]
+			}
+		}
+	}).mount('#app');
+</script>
+</body>
+</html>
