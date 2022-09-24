@@ -1,5 +1,3 @@
-module main
+module /api/qingfa
 
-go 1.15
-
-require github.com/kardianos/service v1.2.0
+go 1.18
